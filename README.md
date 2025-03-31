@@ -1,12 +1,18 @@
-# React + Vite
+🛍️ React Product Cards – Fake Store API
+This is a simple React.js project that fetches and displays products from the Fake Store API using async/await. Each product is shown in a responsive card layout with the following details:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Product Image, Title, Category, Short Description, Rating with count, Price, A Buy button
 
-Currently, two official plugins are available:
+💡 Features
+Fetch data from public API using fetch() and async/await
+Clean and responsive UI with external CSS
+Flexbox layout to arrange cards in a grid
+Text truncation to keep cards equal in size
+CSS hover effects and transitions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Technologies Used
+React.js (Functional components + Hooks)
 
-## Expanding the ESLint configuration
+📷 Preview : 
+![screencapture-localhost-5173-2025-03-31-17_24_22](https://github.com/user-attachments/assets/25362cef-1545-489c-b8e2-df3f300a6260)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
